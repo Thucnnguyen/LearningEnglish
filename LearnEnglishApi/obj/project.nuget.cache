@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "n4We+hUd+pQ=",
+  "dgSpecHash": "Ft5/8UaziXM=",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\LearnEnglishApi\\LearnEnglishApi.csproj",
   "expectedPackageFiles": [
@@ -85,6 +85,7 @@
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0-rc.2.24473.5\\microsoft.extensions.configuration.9.0.0-rc.2.24473.5.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0-rc.2.24473.5\\microsoft.extensions.configuration.abstractions.9.0.0-rc.2.24473.5.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.0-rc.2.24473.5\\microsoft.extensions.configuration.binder.9.0.0-rc.2.24473.5.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\9.0.0-rc.2.24473.5\\microsoft.extensions.configuration.fileextensions.9.0.0-rc.2.24473.5.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.configuration.json\\9.0.0-rc.2.24473.5\\microsoft.extensions.configuration.json.9.0.0-rc.2.24473.5.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0-rc.2.24473.5\\microsoft.extensions.dependencyinjection.9.0.0-rc.2.24473.5.nupkg.sha512",

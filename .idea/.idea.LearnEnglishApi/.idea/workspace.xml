@@ -8,7 +8,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fe2ead4-b1ea-4c5b-8d91-8b73d7649314" name="Changes" comment="" />
+    <list default="true" id="7fe2ead4-b1ea-4c5b-8d91-8b73d7649314" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Application/IService/IAssemblyAIService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Service/AssemblyAIService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Settings/AssemblyAISetting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LearnEnglishApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LearnEnglishApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/ConfigureSerivce.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/ConfigureSerivce.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net9.0/Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net9.0/Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net9.0/Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net9.0/Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net9.0/Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net9.0/Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net9.0/Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net9.0/Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/ConfigureService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ConfigureService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnEnglishApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearnEnglishApi/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnEnglishApi/obj/Debug/net9.0/LearnEnglishApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LearnEnglishApi/obj/Debug/net9.0/LearnEnglishApi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnEnglishApi/obj/Debug/net9.0/LearnEnglishApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LearnEnglishApi/obj/Debug/net9.0/LearnEnglishApi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnEnglishApi/obj/Debug/net9.0/LearnEnglishApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LearnEnglishApi/obj/Debug/net9.0/LearnEnglishApi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnEnglishApi/obj/LearnEnglishApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearnEnglishApi/obj/LearnEnglishApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnEnglishApi/obj/LearnEnglishApi.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/LearnEnglishApi/obj/LearnEnglishApi.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnEnglishApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearnEnglishApi/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnEnglishApi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LearnEnglishApi/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnEnglishApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/LearnEnglishApi/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +50,9 @@
   </component>
   <component name="DpaMonitoringSettings">
     <option name="autoShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f8bfd05456924848881ef49c7bc8e5f610328/74/74478276/IServiceScopeFactory.cs" root0="SKIP_HIGHLIGHTING" />
@@ -43,6 +80,7 @@
   "keyToString": {
     ".NET Launch Settings Profile.LearnEnglishApi: http.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -144,7 +182,7 @@
       <updated>1730948580576</updated>
       <workItem from="1730948581793" duration="7151000" />
       <workItem from="1730960543517" duration="6346000" />
-      <workItem from="1730966936669" duration="9453000" />
+      <workItem from="1730966936669" duration="11715000" />
     </task>
     <servers />
   </component>
@@ -163,10 +201,10 @@
           <line>17</line>
           <properties documentPath="C:\Users\admin\RiderProjects\LearnEnglishApi\Infrastructure\ConfigureService.cs" containingFunctionPresentation="Method 'ConfigureInfrastructureServices'">
             <startOffsets>
-              <option value="586" />
+              <option value="618" />
             </startOffsets>
             <endOffsets>
-              <option value="874" />
+              <option value="906" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />

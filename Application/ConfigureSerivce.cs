@@ -9,6 +9,9 @@ public class ConfigureSerivce
 {
     public static IServiceCollection ConfigureSerivceServices(IServiceCollection services)
     {
+        
+        
+        //add mediatR
         services.AddMediatR(cfg =>
         {
             cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());

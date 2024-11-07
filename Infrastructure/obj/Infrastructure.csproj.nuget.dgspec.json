@@ -207,11 +207,19 @@
               "target": "Package",
               "version": "[9.0.0-rc.2.24473.5, )"
             },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24473.5, )"
+            },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[9.0.0-rc.2.24473.5, )"
             },
-            "Microsoft.Extensions.DependencyInjection": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24473.5, )"
+            },
+            "Microsoft.Extensions.DependencyModel": {
               "target": "Package",
               "version": "[9.0.0-rc.2.24473.5, )"
             },
