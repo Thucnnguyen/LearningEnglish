@@ -27,7 +27,9 @@ public static class ConfigureService
         services.AddScoped<IUnitOfWork, UnitOfwork>();
         // add Assembly 
         services.AddOptions<AssemblyAISetting>()
-            .
+            .BindConfiguration(AssemblyAISetting.ConfigSectionName)
+            .ValidateOnStart();
+        services.AddSingleton(sp => sp.GetRequiredService<IOptions<AssemblyAISetting>>().Value);
         return services;
     }
 }
