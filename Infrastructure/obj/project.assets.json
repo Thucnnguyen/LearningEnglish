@@ -2653,7 +2653,6 @@
           "Domain": "1.0.0",
           "FluentValidation": "11.10.0",
           "Google.Apis": "1.68.0",
-          "Google.Apis.Drive.v3": "1.68.0.3574",
           "MediatR": "12.4.1",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0"
         },
@@ -7998,6 +7997,7 @@
       "AssemblyAI >= 1.2.0",
       "Domain >= 1.0.0",
       "EntityFrameworkCore.Projectables >= 4.0.0-preview.4",
+      "Google.Apis.Drive.v3 >= 1.68.0.3574",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.Extensions.Configuration >= 9.0.0-rc.2.24473.5",
@@ -8010,19 +8010,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LearnEnglishApi\\LearningEnglish\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "D:\\LearnEnglishApi\\LearningEnglish\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\LearnEnglishApi\\LearningEnglish\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8030,17 +8030,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\LearnEnglishApi\\LearningEnglish\\Application\\Application.csproj": {
-              "projectPath": "D:\\LearnEnglishApi\\LearningEnglish\\Application\\Application.csproj"
+            "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Application\\Application.csproj"
             },
-            "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj"
+            "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj"
             }
           }
         }
@@ -8067,6 +8068,10 @@
           "EntityFrameworkCore.Projectables": {
             "target": "Package",
             "version": "[4.0.0-preview.4, )"
+          },
+          "Google.Apis.Drive.v3": {
+            "target": "Package",
+            "version": "[1.68.0.3574, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -8123,7 +8128,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj": {}
+    "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj": {
+    "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

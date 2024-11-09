@@ -30,6 +30,13 @@ public static class ConfigureService
             .BindConfiguration(AssemblyAISetting.ConfigSectionName)
             .ValidateOnStart();
         services.AddSingleton(sp => sp.GetRequiredService<IOptions<AssemblyAISetting>>().Value);
+        
+        // add GoogleDriveService
+        services.AddOptions<GoogleDriveSetting>()
+            .BindConfiguration(GoogleDriveSetting.ConfigSectionName)
+            .ValidateOnStart();
+        services.AddSingleton(sp => sp.GetRequiredService<IOptions<GoogleDriveSetting>>().Value);        
         return services;
+
     }
 }

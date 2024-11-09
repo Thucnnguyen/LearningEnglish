@@ -4079,7 +4079,6 @@
           "Domain": "1.0.0",
           "FluentValidation": "11.10.0",
           "Google.Apis": "1.68.0",
-          "Google.Apis.Drive.v3": "1.68.0.3574",
           "MediatR": "12.4.1",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0"
         },
@@ -4108,6 +4107,7 @@
           "AssemblyAI": "1.2.0",
           "Domain": "1.0.0",
           "EntityFrameworkCore.Projectables": "4.0.0-preview.4",
+          "Google.Apis.Drive.v3": "1.68.0.3574",
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.Extensions.Configuration": "9.0.0-rc.2.24473.5",
           "Microsoft.Extensions.Configuration.Binder": "9.0.0-rc.2.24473.5",
@@ -11932,19 +11932,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LearnEnglishApi\\LearningEnglish\\LearnEnglishApi\\LearnEnglishApi.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\LearnEnglishApi\\LearnEnglishApi.csproj",
       "projectName": "LearnEnglishApi",
-      "projectPath": "D:\\LearnEnglishApi\\LearningEnglish\\LearnEnglishApi\\LearnEnglishApi.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\LearnEnglishApi\\LearningEnglish\\LearnEnglishApi\\obj\\",
+      "projectPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\LearnEnglishApi\\LearnEnglishApi.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\LearnEnglishApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11952,14 +11952,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\LearnEnglishApi\\LearningEnglish\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\LearnEnglishApi\\LearningEnglish\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -12011,7 +12012,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

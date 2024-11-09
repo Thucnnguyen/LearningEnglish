@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LearnEnglishApi\\LearningEnglish\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\LearnEnglishApi\\LearningEnglish\\Application\\Application.csproj": {
+    "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LearnEnglishApi\\LearningEnglish\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\LearnEnglishApi\\LearningEnglish\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\LearnEnglishApi\\LearningEnglish\\Application\\obj\\",
+        "projectPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj"
+              "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -57,10 +58,6 @@
               "target": "Package",
               "version": "[1.68.0, )"
             },
-            "Google.Apis.Drive.v3": {
-              "target": "Package",
-              "version": "[1.68.0.3574, )"
-            },
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
@@ -86,21 +83,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj": {
+    "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,6 +105,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -146,21 +144,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\LearnEnglishApi\\LearningEnglish\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LearnEnglishApi\\LearningEnglish\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\LearnEnglishApi\\LearningEnglish\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\LearnEnglishApi\\LearningEnglish\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,17 +166,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\LearnEnglishApi\\LearningEnglish\\Application\\Application.csproj": {
-                "projectPath": "D:\\LearnEnglishApi\\LearningEnglish\\Application\\Application.csproj"
+              "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Application\\Application.csproj"
               },
-              "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj"
+              "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -205,6 +204,10 @@
             "EntityFrameworkCore.Projectables": {
               "target": "Package",
               "version": "[4.0.0-preview.4, )"
+            },
+            "Google.Apis.Drive.v3": {
+              "target": "Package",
+              "version": "[1.68.0.3574, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -261,7 +264,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

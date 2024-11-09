@@ -31,24 +31,6 @@
           }
         }
       },
-      "Google.Apis.Auth/1.68.0": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.68.0",
-          "Google.Apis.Core": "1.68.0",
-          "System.Management": "7.0.2"
-        },
-        "compile": {
-          "lib/net6.0/Google.Apis.Auth.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Google.Apis.Auth.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Google.Apis.Core/1.68.0": {
         "type": "package",
         "dependencies": {
@@ -61,23 +43,6 @@
         },
         "runtime": {
           "lib/net6.0/Google.Apis.Core.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Google.Apis.Drive.v3/1.68.0.3574": {
-        "type": "package",
-        "dependencies": {
-          "Google.Apis": "1.68.0",
-          "Google.Apis.Auth": "1.68.0"
-        },
-        "compile": {
-          "lib/net6.0/Google.Apis.Drive.v3.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Google.Apis.Drive.v3.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -191,47 +156,6 @@
           }
         }
       },
-      "System.CodeDom/7.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/System.CodeDom.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/System.CodeDom.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "System.Management/7.0.2": {
-        "type": "package",
-        "dependencies": {
-          "System.CodeDom": "7.0.0"
-        },
-        "compile": {
-          "lib/net7.0/System.Management.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/System.Management.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Management.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
       "System.Memory/4.5.1": {
         "type": "package",
         "compile": {
@@ -327,28 +251,6 @@
         "lib/netstandard2.0/Google.Apis.xml"
       ]
     },
-    "Google.Apis.Auth/1.68.0": {
-      "sha512": "hFx8Qz5bZ4w0hpnn4tSmZaaFpjAMsgVElZ+ZgVLUZ2r9i+AKcoVgwiNfv1pruNS5cCvpXqhKECbruBCfRezPHA==",
-      "type": "package",
-      "path": "google.apis.auth/1.68.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.apis.auth.1.68.0.nupkg.sha512",
-        "google.apis.auth.nuspec",
-        "lib/net462/Google.Apis.Auth.dll",
-        "lib/net462/Google.Apis.Auth.pdb",
-        "lib/net462/Google.Apis.Auth.xml",
-        "lib/net6.0/Google.Apis.Auth.dll",
-        "lib/net6.0/Google.Apis.Auth.pdb",
-        "lib/net6.0/Google.Apis.Auth.xml",
-        "lib/netstandard2.0/Google.Apis.Auth.dll",
-        "lib/netstandard2.0/Google.Apis.Auth.pdb",
-        "lib/netstandard2.0/Google.Apis.Auth.xml"
-      ]
-    },
     "Google.Apis.Core/1.68.0": {
       "sha512": "pAqwa6pfu53UXCR2b7A/PAPXeuVg6L1OFw38WckN27NU2+mf+KTjoEg2YGv/f0UyKxzz7DxF1urOTKg/6dTP9g==",
       "type": "package",
@@ -369,28 +271,6 @@
         "lib/netstandard2.0/Google.Apis.Core.dll",
         "lib/netstandard2.0/Google.Apis.Core.pdb",
         "lib/netstandard2.0/Google.Apis.Core.xml"
-      ]
-    },
-    "Google.Apis.Drive.v3/1.68.0.3574": {
-      "sha512": "WqoTNVc+G1+e8xYveNF1EcYKHa7D7gBCtfS/I7LWtGkC3Z7cCtkjKKt0Lg1mXudxqZ7cmt7DFuQVlTpLs8inRA==",
-      "type": "package",
-      "path": "google.apis.drive.v3/1.68.0.3574",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "NuGetIcon.png",
-        "google.apis.drive.v3.1.68.0.3574.nupkg.sha512",
-        "google.apis.drive.v3.nuspec",
-        "lib/net462/Google.Apis.Drive.v3.dll",
-        "lib/net462/Google.Apis.Drive.v3.pdb",
-        "lib/net462/Google.Apis.Drive.v3.xml",
-        "lib/net6.0/Google.Apis.Drive.v3.dll",
-        "lib/net6.0/Google.Apis.Drive.v3.pdb",
-        "lib/net6.0/Google.Apis.Drive.v3.xml",
-        "lib/netstandard2.0/Google.Apis.Drive.v3.dll",
-        "lib/netstandard2.0/Google.Apis.Drive.v3.pdb",
-        "lib/netstandard2.0/Google.Apis.Drive.v3.xml"
       ]
     },
     "MediatR/12.4.1": {
@@ -525,61 +405,6 @@
         "packageIcon.png"
       ]
     },
-    "System.CodeDom/7.0.0": {
-      "sha512": "GLltyqEsE5/3IE+zYRP5sNa1l44qKl9v+bfdMcwg+M9qnQf47wK3H0SUR/T+3N4JEQXF3vV4CSuuo0rsg+nq2A==",
-      "type": "package",
-      "path": "system.codedom/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.CodeDom.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
-        "lib/net462/System.CodeDom.dll",
-        "lib/net462/System.CodeDom.xml",
-        "lib/net6.0/System.CodeDom.dll",
-        "lib/net6.0/System.CodeDom.xml",
-        "lib/net7.0/System.CodeDom.dll",
-        "lib/net7.0/System.CodeDom.xml",
-        "lib/netstandard2.0/System.CodeDom.dll",
-        "lib/netstandard2.0/System.CodeDom.xml",
-        "system.codedom.7.0.0.nupkg.sha512",
-        "system.codedom.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "System.Management/7.0.2": {
-      "sha512": "/qEUN91mP/MUQmJnM5y5BdT7ZoPuVrtxnFlbJ8a3kBJGhe2wCzBfnPFtK2wTtEEcf3DMGR9J00GZZfg6HRI6yA==",
-      "type": "package",
-      "path": "system.management/7.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.Management.targets",
-        "lib/net462/_._",
-        "lib/net6.0/System.Management.dll",
-        "lib/net6.0/System.Management.xml",
-        "lib/net7.0/System.Management.dll",
-        "lib/net7.0/System.Management.xml",
-        "lib/netstandard2.0/System.Management.dll",
-        "lib/netstandard2.0/System.Management.xml",
-        "runtimes/win/lib/net6.0/System.Management.dll",
-        "runtimes/win/lib/net6.0/System.Management.xml",
-        "runtimes/win/lib/net7.0/System.Management.dll",
-        "runtimes/win/lib/net7.0/System.Management.xml",
-        "system.management.7.0.2.nupkg.sha512",
-        "system.management.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "System.Memory/4.5.1": {
       "sha512": "sDJYJpGtTgx+23Ayu5euxG5mAXWdkDb4+b0rD0Cab0M1oQS9H0HXGPriKcqpXuiJDTV7fTp/d+fMDJmnr6sNvA==",
       "type": "package",
@@ -660,25 +485,24 @@
       "Domain >= 1.0.0",
       "FluentValidation >= 11.10.0",
       "Google.Apis >= 1.68.0",
-      "Google.Apis.Drive.v3 >= 1.68.0.3574",
       "MediatR >= 12.4.1",
       "Microsoft.AspNetCore.Http.Abstractions >= 2.2.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LearnEnglishApi\\LearningEnglish\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\LearnEnglishApi\\LearningEnglish\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\LearnEnglishApi\\LearningEnglish\\Application\\obj\\",
+      "projectPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -686,14 +510,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\LearnEnglishApi\\LearningEnglish\\Domain\\Domain.csproj"
+            "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\admin\\RiderProjects\\LearnEnglishApi\\Domain\\Domain.csproj"
             }
           }
         }
@@ -721,10 +546,6 @@
             "target": "Package",
             "version": "[1.68.0, )"
           },
-          "Google.Apis.Drive.v3": {
-            "target": "Package",
-            "version": "[1.68.0.3574, )"
-          },
           "MediatR": {
             "target": "Package",
             "version": "[12.4.1, )"
@@ -750,7 +571,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
